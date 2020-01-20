@@ -1,0 +1,104 @@
+
+body
+{
+    background-image: url(/images/Boat.jpg);
+ 
+  background-color: #cccccc; 
+  height: 600px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+}
+.full-box
+{
+   position: absolute;
+  
+  right: 500px;
+  width:330px;
+  height: 100px;
+      
+}
+.form-signin
+{
+     max-width: 300px;
+    
+    margin: auto;
+}
+
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: 50;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin button{
+    
+  background-color: white;
+  color: black;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.form-signin h1{
+    color: black;
+}
+.form-signin p{
+    color: black;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    background-color:silver;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    background-color:silver;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 10px 0px 20px 0px;
+    background-color:grey;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
